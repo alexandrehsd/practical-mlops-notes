@@ -5,7 +5,12 @@ description = ""
 authors = [
     {name = "Alexandre Henrique", email = "alexandre.hsd@gmail.com"},
 ]
-dependencies = []
+dependencies = [
+    "pandas>=2.1.4",
+    "click>=8.1.7",
+    "pytest==5.1.0",
+    "cython==0.29.37",
+]
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}
