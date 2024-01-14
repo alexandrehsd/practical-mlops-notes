@@ -1,0 +1,4 @@
+# requirements.txt
+pandas
+click
+pytest==5.1.0
